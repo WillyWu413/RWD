@@ -1,0 +1,112 @@
+.content{
+    background: #efe9e7;
+    text-align: center;
+    color: #3D1101;
+    height: 550px;
+}
+
+.content h1{
+    font-size: 64px;
+    padding-top: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content p{
+    font-size: 30px;
+}
+
+.login{
+    margin: 0 auto;
+    width: 350px;
+    border-top: 5px solid orangered;
+    margin-top: 30px;
+    background: #EFE9E7;
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
+}
+
+.login label , .login input .login a{
+    display: block;
+}
+
+.login h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.login input{
+    border-radius: 3px;
+    box-shadow: none;
+    outline: none;
+}
+
+.login label{
+    float: left;
+    margin-left: 13px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.box1{
+    margin-left: 10px;
+}
+
+.box1 input{
+    width: 280px;
+    padding: 8px;
+    background: url(../regular/envelope.svg) no-repeat;
+    background-color: #fff;
+}
+.box1 .email{
+    padding-left: 35px;
+}
+
+.box2{
+    margin-left: 10px;
+}
+.box2 input{
+    width: 280px;
+    padding: 8px;
+    background: url(../regular/lock-solid.svg) no-repeat;
+    background-color: #fff;
+}
+.box2 .password{
+    padding-left: 35px;
+}
+
+.login a{
+    text-decoration: none;
+    color: orange;
+    padding-left: 10px;
+    margin-top: 5px;
+    display: block;
+    text-align: left !important;
+}
+
+.login a:hover{
+    cursor: pointer;
+    color: orangered;
+}
+
+.btn1 , .btn2{
+    color: #fff;
+    margin: 30px 10px;
+    width: 43%;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.btn1:hover , .btn2:hover{
+    cursor: pointer;
+}
+
+.btn1{
+    float: left;
+}
+.btn2{
+    background: orangered;
+}
+

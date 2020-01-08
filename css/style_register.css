@@ -1,0 +1,76 @@
+input{
+    outline: none;
+}
+
+.content{
+    margin: 0 auto;
+    height: 600px;
+}
+
+.clearfix{
+    clear: both;
+}
+.register{
+        margin: 0 auto;
+        width: 800px;
+        height: 400px;
+        border-top: 5px solid orangered;
+        margin-top: 30px;
+        background: #EFE9E7;
+        box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);   
+}
+
+.register h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.rule ,.keyin{
+    width: 375px;
+    float: left;
+    margin-top: 40px;
+    text-align: left;
+}
+.rule{
+    margin-left: 15px;
+    margin-right: 30px;
+}
+.rule h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.rule p{
+    font-size: 20px;
+    line-height: 1.5em;
+
+}
+
+.keyin label{
+    margin-left: 10px;
+}
+
+.keyin a{
+    text-decoration: none;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: orangered;
+}
+
+
+.box1{
+    margin-bottom: 30px;
+}
+
+.box1 .email{
+    padding-left: 35px;
+}
+
+.box2 .password{
+    padding-left: 35px;
+}
+.btn2{
+    margin-top: 50px;
+}
